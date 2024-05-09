@@ -1,0 +1,98 @@
+body{
+    background-color: black;
+    margin:0px;
+    font-family: Roboto;
+    margin-left:100px;
+    margin-right:100px;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 100px; /* Adjust this value to match your desired left margin */
+    right: 100px;
+    width: calc(100% - 200px);
+    background-color: #000000;
+    z-index: 1000; 
+}
+
+    
+
+.navbar ul{
+    list-style-type:none;
+    padding:0px;
+    overflow:hidden;
+    font-weight: 300;
+}
+
+.navbar a{
+    color:white;
+    text-decoration: none;
+    padding: 15px;
+    display:block;
+    text-align: center;
+    font-size: 1.2em;
+}
+.navbar li{
+    margin-left: 30px;
+    float:left;
+}
+
+.navbar a:hover{
+    color: aquamarine;
+}
+
+.navbar a.active {
+    color: aquamarine; /* Change text color to improve readability */
+}
+
+main {
+    padding-top: 100px;
+}
+#img1{
+    margin-top: 0px;
+    float:inline-end;
+    top: 150px;
+    margin-left:200px;
+}
+
+#intro1{
+    margin-top: 50px;
+    color:white;
+    font-size: 4em;
+    font-weight: 400;
+    
+}
+#desc1{
+    margin-top: 200px;
+    color:white;
+    font-size:1.8em;
+    font-weight:300;
+}
+
+#img2{
+    float:left;
+    margin-right: 100px;
+}
+
+div{
+    margin-top: 400px;
+}
+#intro2{
+    color:white;
+    font-size: 4em;
+    font-weight: 400;
+    
+}
+#desc2{
+    color:white;
+    font-size:1.8em;
+    font-weight:300;
+}
+
+#intro1 span.special{
+    color: aquamarine;
+}
+#intro2 span.special{
+    color: aquamarine;
+}

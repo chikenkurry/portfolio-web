@@ -1,0 +1,143 @@
+body{
+    background-color: black;
+    margin:0px;
+    font-family: Roboto;
+    margin-left:100px;
+    margin-right:100px;
+}
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 100px; /* Adjust this value to match your desired left margin */
+    right: 100px;
+    width: calc(100% - 200px);
+    background-color: #000000;
+    z-index: 1000; 
+}
+
+.navbar a.active {
+    color: aquamarine; /* Change text color to improve readability */
+}
+
+main{
+    padding-top: 100px;
+}
+.navbar ul{
+    list-style-type:none;
+    padding:0px;
+    overflow:hidden;
+    font-weight: 300;
+}
+
+.navbar a{
+    color:white;
+    text-decoration: none;
+    padding: 15px;
+    display:block;
+    text-align: center;
+    font-size: 1.2em;
+}
+.navbar li{
+    margin-left: 30px;
+    float:left;
+}
+
+.navbar a:hover{
+    color: aquamarine;
+}
+
+main h1{
+    color: white;
+    font-weight: 400;
+    font-size: 4em;
+}
+
+#Exp{
+    float: left;
+    margin-right: 200px;
+    width: 500px;
+}
+
+#Exp h2{
+    color: white;
+    font-weight: 400;
+    font-size: 2em;
+}
+
+#Exp h3{
+    color: white;
+    font-weight: 300;
+    font-size: 1.5em;
+}
+#Exp h4{
+    color: rgb(175, 175, 175);
+    font-weight: 300;
+    font-size: 1.5em;
+}
+
+#Exp h5{
+    color: rgb(175, 175, 175);
+    font-weight: 300;
+    font-size: 1.5em;
+    margin-bottom: 80px;
+}
+
+#education h2{
+    color: white;
+    font-weight: 400;
+    font-size: 2em;
+}
+
+#education h3{
+    color: white;
+    font-weight: 300;
+    font-size: 1.5em;
+}
+#education h4{
+    color: rgb(175, 175, 175);
+    font-weight: 300;
+    font-size: 1.5em;
+    margin-bottom: 80px;
+}
+#University h2,h3,h4{
+    margin-top: 0; /* Remove any top margin */
+    margin-bottom: 5px; 
+}
+
+#JC h2,h3,h4{
+    margin-top: 0; /* Remove any top margin */
+    margin-bottom: 5px; 
+}
+
+#Sec h2,h3,h4{
+    margin-top: 0; /* Remove any top margin */
+    margin-bottom: 5px; 
+}
+
+#education{
+    float: left;
+    margin-right: 250px;
+}
+
+#skill{
+   
+    
+}
+#skill h1{
+    color: white;
+    font-weight: 400;
+    font-size: 4em;
+}
+#skill h3{
+    line-height: 50px;
+    color: white;
+    font-weight: 300;
+    font-size: 1.5em;
+}
+
+
+#exp1 h2,h3,h4,h5{
+    margin-top: 0; /* Remove any top margin */
+    margin-bottom: 5px; 
+}
+
