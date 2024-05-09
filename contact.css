@@ -2,11 +2,13 @@ body{
     background-color: black;
     margin:0px;
     font-family: Roboto;
-    margin-left:5%;
+    
     margin-right:5%;
 }
 
 .navbar {
+    padding-left:5%;
+    margin-left:0;
     position: fixed;
     top: 0;
     width: 100%;
@@ -46,7 +48,9 @@ hr {
 .navbar a.active {
     color: aquamarine; /* Change text color to improve readability */
 }
-
+main{
+    margin-left:5%;
+}
 main h1{
 
     padding-top: 7%;
