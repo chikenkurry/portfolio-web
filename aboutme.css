@@ -2,15 +2,13 @@ body{
     background-color: black;
     margin:0px;
     font-family: Roboto;
-    margin-left:100px;
-    margin-right:100px;
+    margin-left:5%;
+    margin-right:5%;
 }
 
 .navbar {
     position: fixed;
     top: 0;
-    left: 100px; /* Adjust this value to match your desired left margin */
-    right: 100px;
     width: 100%;
     background-color: #000000;
     z-index: 1000; 
@@ -50,44 +48,62 @@ main {
     padding-top: 100px;
 }
 #img1{
-    margin-top: 0px;
-    float:inline-end;
-    top: 150px;
-    margin-left:200px;
+    min-width: 420px;
+    max-width: 600px;
+    width: 40%;
+    float: right;
+    margin-bottom: 5%;
+    margin-left:5%;
+    margin-top:2%;
+    
 }
 
 #intro1{
-    margin-top: 50px;
+    margin-top: 2%;
     color:white;
     font-size: 4em;
     font-weight: 400;
+    display:span;
     
 }
 #desc1{
-    margin-top: 100px;
+    
+    
+    margin-top: 50px;
     color:white;
     font-size:1.8em;
     font-weight:300;
+    max-width: 1000px;
+    width: calc(60% + 40vw);
+    
 }
 
 #img2{
+  padding-top: calc(5% + 2vw);
+    min-width: 450px;
+    max-width: 600px;
+    width: 50%;
+    margin-bottom: 20%;
+    margin-right: 5%;
     float:left;
-    margin-right: 100px;
 }
 
 div{
-    margin-top: 400px;
+    margin-top: 30%;
 }
 #intro2{
+    padding-top: 5%;
     color:white;
-    font-size: 4em;
+    font-size: 3.5em;
     font-weight: 400;
     
 }
 #desc2{
+    margin-top: 10px;
     color:white;
-    font-size:1.8em;
+    font-size:1.6em;
     font-weight:300;
+    
 }
 
 #intro1 span.special{
