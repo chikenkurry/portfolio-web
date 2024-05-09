@@ -2,20 +2,21 @@ body{
     background-color: black;
     margin:0px;
     font-family: Roboto;
-    margin-left:100px;
-    margin-right:100px;
+    margin-left:5%;
+    margin-right:5%;
 }
 
 .navbar {
     position: fixed;
     top: 0;
-    left: 100px; /* Adjust this value to match your desired left margin */
-    right: 100px;
-    width: 100;
+    width: 100%;
     background-color: #000000;
     z-index: 1000; 
 }
 
+hr {
+    width: calc(100% - 200px);
+}
     
 
 .navbar ul{
@@ -47,7 +48,8 @@ body{
 }
 
 main h1{
-    padding-top: 350px;
+
+    padding-top: 7%;
     color:white;
     font-size:4em;
     font-weight: 400;
@@ -58,14 +60,20 @@ main span.special{
 }
 
 #pic1 {
-    float:inline-end;
-    margin-left: 200px;
 
+    min-width: 420px;
+    max-width: 500px;
+    width: 40%;
+    float: right;
+    margin-bottom: 5%;
+    margin-left:5%;
+    margin-top:2%;
+        
 }
 
 .icon{
     color: aquamarine;
-    margin-right: 50px;
+    margin-right: 3%;
 }
 
 .icon:hover{
