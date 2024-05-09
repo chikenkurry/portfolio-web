@@ -2,11 +2,13 @@ body{
     background-color: black;
     margin:0px;
     font-family: Roboto;
-    margin-left:5%;
+    
     margin-right:5%;
 }
 
 .navbar {
+    padding-left:5%;
+    margin-left:0;
     position: fixed;
     top: 0;
     width: 100%;
@@ -17,6 +19,7 @@ body{
     
 
 .navbar ul{
+    
     list-style-type:none;
     padding:0px;
     overflow:hidden;
@@ -24,6 +27,7 @@ body{
 }
 
 .navbar a{
+    
     color:white;
     text-decoration: none;
     padding: 15px;
@@ -45,6 +49,7 @@ body{
 }
 
 main {
+    margin-left:5%;
     padding-top: 100px;
 }
 #img1{
