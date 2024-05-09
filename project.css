@@ -2,10 +2,12 @@ body{
     background-color: black;
     margin:0px;
     font-family: Roboto;
-    margin-left:5%;
+    
     margin-right:5%;
 }
 .navbar {
+    padding-left:5%;
+    margin-left:0;
     position: fixed;
     top: 0;
     width: 100%;
@@ -43,7 +45,9 @@ main{
 .navbar a:hover{
     color: aquamarine;
 }
-
+main{
+    margin-left:5%;
+}
 main h1{
     color: white;
     font-weight: 400;
