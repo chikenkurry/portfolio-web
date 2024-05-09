@@ -45,6 +45,8 @@ main{
 
 }
 #pic1{
+    min-width: 400px;
+    width: 40%;
     margin-left:50px;
     float: left;
     margin-right: 10%;
