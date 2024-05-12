@@ -2,6 +2,8 @@ body {
     font-family: "Rubik", sans-serif;
     font-weight: 500;
     margin: 0;
+    background-image: url("images/bg8.jpeg");
+
 }
 
 .topnav {
@@ -14,7 +16,7 @@ body {
     width: 100%;
     z-index: 2000;
   }
-  
+
   /* Style the links inside the navigation bar */
 .topnav a {
     float: left;
@@ -27,6 +29,7 @@ body {
     text-decoration: none;
     font-size: 20px;
     margin-right: 5%;
+    
 }
   
   /* Add an active class to highlight the current page */
@@ -123,60 +126,84 @@ body {
   }
 
 
-#contact {
-    background-color: black;
-    background-size: cover;
+#pic1{
+    animation: slideIn 2s backwards; /* Apply the slide-in animation */
+    margin-left: 5%;
+    min-width: 400px;
+    min-height: 600px;
+    max-height: 600px;
+    width:30%;
+    height: 85%;
+    border-radius: 50px;
+    margin-right: 5%;
+ }
+
+ 
+
+
+#about {
+    background-image: url("images/bg8a.jpeg");
+    background-repeat: no-repeat;
     color:white;
-    padding-top: 100px;
+    padding-top: 150px;
     display: flex;
     flex-wrap: wrap;
     height: 100%;
     width:100%;
     padding-bottom: 5%;
+    
+    
+
 }
 
-#pic1{
-
-    animation: slideIn 2s forwards; /* Apply the slide-in animation */
-    margin-left: 5%;
-    min-width: 400px;
-    min-height: 500px;
-    width:30%;
-    height: 85%;
-    border-radius: 50px;
- }
+#sec1 {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    margin-bottom: 100px;;
+    gap:5%;
+}
 
  @keyframes slideIn {
     from {
-        transform: translateX(-100%); /* Start position off-screen to the left */
+        transform: translateX(100%); /* Start position off-screen to the left */
     }
     to {
-        transform: translateX(0); /* End position on-screen */
+        transform: translateX(0%); /* End position on-screen */
     }
 }
 
-#homeDesc {
-    padding-top: 5%;
-    padding-left: 10%;
-    width:40%;
-    min-width: 500px;
+#aboutDesc1 {
+    width:45%;
+    min-width: 400px;
     padding-right: 5%;
+    padding-left:5%;
 }
-#contact h1{
-    font-weight: 300;
-    font-size: 1.8em;
+#about h1{
     
+    font-weight: 300;
+    font-size: 2em;
+    margin-bottom: -60px;
+    width:auto;
 }
-#contact h2{
+
+#about h3{
+    
+    font-weight: 300;
+    font-size: 1.5em;
+    margin-bottom: -60px;
+    width:auto;
+}
+#about h2{
     overflow: hidden; /* Ensures the content is not revealed until the animation */
     white-space: nowrap; /* Keeps the content on a single line */
-    animation: 
-    typing 3.5s steps(40, end);
+    animation: typing 2s steps(100, end);
     font-weight: 500;
     font-size: 4em;
-    margin-bottom: 50px;
-    margin-top: -50px;
-    
+    margin-top: -10px;
+    background-image: url("images/bg10.jpeg");
+    background-position:top;
+    -webkit-background-clip: text;
+    color:transparent;
 }
 
 #nameDesc {
@@ -193,8 +220,34 @@ body {
     font-size: 1.2em;
 }
 
+
+#sec2 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 5%;
+    gap:5%;
+}
+
+#pic2 {
+    margin-top: 120px;
+    margin-left: 5%;
+    min-width: 400px;
+    min-height: 300px;
+    max-height: 400px;
+    width:35%;
+    height: 85%;
+    border-radius: 50px;
+
+}
+#aboutDesc2 {
+    padding-left: 5%;
+    width:45%;
+    min-width: 400px;
+    padding-right: 5%;
+    
+}
 @media (max-width: 600px) {
-    #home {
+    #about {
         width: 100vh; /* Change width to 100vh for screens <= 768px */
     }
     .topnav a{
@@ -205,8 +258,8 @@ body {
         font-size: 2em;
     }
 
-    #home h2{
-        font-size: 5em;
+    #about h2{
+        padding-top: 5%;
     }
 
     #nameDesc {
@@ -226,36 +279,4 @@ body {
         width: 100%; /* Expand to 100% */
     }
 }
-
-.icon{
-   color:pink;
-    margin-right: 3%;
-}
-
-.icon:hover{
-    color:white;
-}
-
-#about {
-    background-color: black;
-    background-size: cover;
-    color:white;
-    padding-top: 100px;
-    display: flex;
-    flex-wrap: wrap;
-    height: 100%;
-    width:100%;
-    padding-bottom: 5%;
-}
-
-#pic2{
-    overflow: hidden; /* Hide the image overflow */
-    animation: slideIn 2s forwards; /* Apply the slide-in animation */
-    margin-left: 5%;
-    min-width: 400px;
-    min-height: 600px;
-    width:30%;
-    height: 85%;
-    border-radius: 50px;
- }
 

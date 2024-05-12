@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="about.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik" rel="stylesheet">
+</head>
+<body>
+    <div class="topnav" id="myTopnav">
+        <a href="index.html">HOME</a>
+        <a href="about.html" class="active">ABOUT</a>
+        <a href="exp.html">EXPERIENCE</a>
+        <div class="dropdown">
+
+          <div class="dropdown-content">
+            <a href="">Link 1</a>
+            <a href="">Link 2</a>
+            <a href="">Link 3</a>
+          </div>
+        </div>
+        <a href="contact.html">CONTACT</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+      </div>
+    <section id="about">
+        <div id="sec1">
+            <div id="aboutDesc1">
+                <h2>About Me</h2>
+                <h3>Hey there, folks! I'm Cledwyn Chan, currently in my sophomore year studying Computer Science at SMU. I love to travel and I love to gym and play football. I also love cheering on my favorite sports teams like Real Madrid in football, Red Bull in F1, and the Warriors in the NBA. As a CS student, gaming is naturally part of my life. From FPS games like CS2, Valorant and Siege to diving into the thrill of sim racing. Gaming is definitely my go-to for relaxation and excitement. I have always believe that "Money can return but memories can't" and hence I have always wanted to create good memories be it with the people around me or my loved ones</h3>
+            </div>
+            <img src="images/IMG_8205.jpg" id="pic1">
+        </div>
+       
+        <div id="sec2">
+            <img src="images/IMG_1084.JPG" id="pic2">
+            <div id="aboutDesc2">
+                <h2>My Story</h2>
+                <h3>Well, from a young age, my fascination with computers and gaming has been unwavering.
+                    Yet, the joy of multiplayer gaming often turned sour due to the presence of cheaters 
+                    and hackers who exploited vulnerabilities within the game. Rather than succumb to the 
+                    temptation to cheat, I became intrigued by the mechanisms underlying these exploits and
+                    the ease with which anti-cheat systems could be circumvented. This curiosity sparked a 
+                    deep interest in understanding the intricacies of cybersecurity and exploring potential 
+                    solutions to safeguard digital environments.My desire to pursue cybersecurity stems from a proactive stance against malicious activities, 
+                    driven by a passion to protect digital ecosystems from exploitation and ensure a safe and equitable
+                    online environment for all users. <br><br></h3>
+            </div>
+            
+        </div>
+
+        
+    </section>
+
+    <div id="test"></div>
+    <main>
+
+    </main>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+            x.className += " responsive";
+            } else {
+            x.className = "topnav";
+            }
+        }
+    </script>
+    
+</body>
+</html>
