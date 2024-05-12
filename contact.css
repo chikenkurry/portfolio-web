@@ -144,6 +144,7 @@ body {
     width:30%;
     height: 85%;
     border-radius: 50px;
+    margin-bottom: 50px;
  }
 
  @keyframes slideIn {
@@ -159,7 +160,7 @@ body {
     padding-top: 5%;
     padding-left: 10%;
     width:40%;
-    min-width: 500px;
+    min-width: 400px;
     padding-right: 5%;
 }
 #contact h1{
@@ -258,4 +259,29 @@ body {
     height: 85%;
     border-radius: 50px;
  }
+
+ @media (max-width: 600px) {
+    #about {
+        width: 100vh; /* Change width to 100vh for screens <= 768px */
+    }
+    .topnav a{
+        font-size: 30px;
+    }
+
+    #contact h1{
+        font-size: 1.6em;
+    }
+
+    #contact h2{
+        font-size: 3em;
+    }
+
+    #expContainer {
+        gap:50px;
+    }
+
+    
+
+
+}
 
