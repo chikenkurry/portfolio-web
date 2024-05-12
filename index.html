@@ -3,31 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cled's Portfolio</title>
-    <link rel="icon" type="image/png" href="images/webIcon.png">
-    <link rel="stylesheet" href="homepage.css">
+    <title>Home</title>
+    <link rel="stylesheet" href="index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik" rel="stylesheet">
 </head>
 <body>
-    <nav class="navbar">
-        <ul>
-            <li><a href="index.html" class="active">HOME</a></li>
-            <li><a href="aboutme.html">ABOUT ME</a></li>
-            <li><a href="project.html">EXPERIENCE</a></li>
-            <li><a href="contact.html">CONTACT ME</a></li>
+    <div class="topnav" id="myTopnav">
+        <a href="index.html" class="active">HOME</a>
+        <a href="about.html">ABOUT</a>
+        <a href="">EXPERIENCE</a>
+        <div class="dropdown">
 
-        </ul>
-        
-    </nav>
-   
+          <div class="dropdown-content">
+            <a href="">Link 1</a>
+            <a href="">Link 2</a>
+            <a href="">Link 3</a>
+          </div>
+        </div>
+        <a href="contact.html">CONTACT</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+      </div>
+    <section id="home">
+        <img src="images/Me2.jpg" id="pic1">
+        <div id="homeDesc">
+            <h1>Hello World. I'm</h1>
+            <h2>Cledwyn</h2>
+            <h3 id="nameDesc">I'm a<br> <span class="special">Computer Science</span><br>Student.</h3>
+            <h1></h1>
+        </div>
+    </section>
+
+    <div id="test"></div>
     <main>
-        <img src="images/Me2.jpg" id="pic1" width="600">
-        <h3 id="name">Cledwyn Chan</h3>
-        <h1 id="nameDesc">I'm a<br> <span class="special">Computer Science</span><br>Student.</h1>
-        <p>Devoted to coding, fueled by an insatiable passion for learning, relentlessly pursuing excellence, and unwaveringly committed to achieving success.</p>
-        <a href="contact.html"><button id="contact">Contact me now!</button></a>
+
     </main>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+            x.className += " responsive";
+            } else {
+            x.className = "topnav";
+            }
+        }
+    </script>
+    
 </body>
 </html>
