@@ -129,9 +129,9 @@ body {
 #pic1{
     animation: slideIn 2s backwards; /* Apply the slide-in animation */
     margin-left: 5%;
-    min-width: 400px;
-    min-height: 600px;
-    max-height: 600px;
+    min-width: 370px;
+    min-height: 500px;
+    max-height: 500px;
     width:30%;
     height: 85%;
     border-radius: 50px;
@@ -159,8 +159,9 @@ body {
 #sec1 {
     display: flex;
     flex-wrap: wrap-reverse;
-    margin-bottom: 100px;;
+    margin-bottom: 150px;;
     gap:5%;
+    margin-top: -50px;
 }
 
  @keyframes slideIn {
@@ -173,8 +174,8 @@ body {
 }
 
 #aboutDesc1 {
-    width:45%;
-    min-width: 400px;
+    width:40%;
+    min-width: 380px;
     padding-right: 5%;
     padding-left:5%;
 }
@@ -199,7 +200,7 @@ body {
     animation: typing 2s steps(100, end);
     font-weight: 500;
     font-size: 4em;
-    margin-top: -10px;
+    margin-top: 0px;
     background-image: url("images/bg10.jpeg");
     background-position:top;
     -webkit-background-clip: text;
@@ -231,8 +232,8 @@ body {
 #pic2 {
     margin-top: 120px;
     margin-left: 5%;
-    min-width: 400px;
-    min-height: 300px;
+    min-width: 380px;
+    min-height: 280px;
     max-height: 400px;
     width:35%;
     height: 85%;
@@ -247,9 +248,7 @@ body {
     
 }
 @media (max-width: 600px) {
-    #about {
-        width: 100vh; /* Change width to 100vh for screens <= 768px */
-    }
+    
     .topnav a{
         font-size: 30px;
     }
