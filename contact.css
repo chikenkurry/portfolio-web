@@ -139,8 +139,8 @@ body {
 
     animation: slideIn 2s forwards; /* Apply the slide-in animation */
     margin-left: 5%;
-    min-width: 400px;
-    min-height: 500px;
+    min-width: 380px;
+    min-height: 480px;
     width:30%;
     height: 85%;
     border-radius: 50px;
@@ -160,8 +160,9 @@ body {
     padding-top: 5%;
     padding-left: 10%;
     width:40%;
-    min-width: 400px;
-    padding-right: 5%;
+    min-width: 350px;
+    
+    
 }
 #contact h1{
     font-weight: 300;
@@ -169,10 +170,7 @@ body {
     
 }
 #contact h2{
-    overflow: hidden; /* Ensures the content is not revealed until the animation */
-    white-space: nowrap; /* Keeps the content on a single line */
-    animation: 
-    typing 3.5s steps(40, end);
+    
     font-weight: 500;
     font-size: 4em;
     margin-bottom: 50px;
@@ -180,10 +178,7 @@ body {
     
 }
 
-#nameDesc {
-    font-size: 3em;
-    font-weight: 300;
-}
+
 
 #nameDesc span.special {
     background-image: url("images/bg10.jpeg");
@@ -195,9 +190,7 @@ body {
 }
 
 @media (max-width: 600px) {
-    #home {
-        width: 100vh; /* Change width to 100vh for screens <= 768px */
-    }
+   
     .topnav a{
         font-size: 30px;
     }
@@ -261,9 +254,7 @@ body {
  }
 
  @media (max-width: 600px) {
-    #about {
-        width: 100vh; /* Change width to 100vh for screens <= 768px */
-    }
+    
     .topnav a{
         font-size: 30px;
     }
